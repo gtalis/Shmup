@@ -46,7 +46,7 @@
     #include <GLES/gl.h>
 #elif defined(LINUX)
     #include <GL/gl.h>
-    #define glOrthof glOrtho
+    #define glOrthof glOrthof
     #define glFogx glFogf
 #endif
 
